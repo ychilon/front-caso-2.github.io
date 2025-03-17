@@ -18,6 +18,7 @@
         font-family: "Inter", sans-serif;
       }
     </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="bg-transparent text-gray-800">
     <!-- Header -->
@@ -291,7 +292,7 @@
         <h3 class="text-5xl font-bold mb-8 text-black">
           Una manera práctica y fácil de trabajar para todos los usuarios
         </h3>
-        <p class="text-gray-600 max-w-2xl mx-auto text-lg">
+        <p class="text-gray-600 max-w-2xl mx-auto text-lg mb-12">
           Porque puedes acceder a todo esto, por supuesto, gratis y sin cobrar
           un céntimo. ¿Qué esperas para unirte?
         </p>
@@ -357,25 +358,42 @@
             </ul>
           </div>
           <!-- Imagen con comentario flotante -->
-          <div class="relative">
-            <img
-              src="why_images/graph.svg"
-              alt="Customer tracking"
-              class="rounded-lg shadow-lg"
-            />
+          <div>
+            <svg
+              class="glow-svg"
+              width="500"
+              height="300"
+              viewBox="40 30 220 150"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="50"
+                y="30"
+                width="200"
+                height="30"
+                rx="10"
+                ry="10"
+                fill="#2E2E2E"
+              />
+              <rect x="50" y="45" width="200" height="15" fill="#2E2E2E" />
+              <rect
+                x="40"
+                y="60"
+                width="220"
+                height="120"
+                rx="10"
+                ry="10"
+                fill="white"
+                stroke="none"
+              />
+              <circle cx="65" cy="45" r="4" fill="white" />
+              <circle cx="75" cy="45" r="4" fill="white" />
+              <circle cx="85" cy="45" r="4" fill="white" />
+            </svg>
+            <!-- Comentario flotante -->
             <div
               class="absolute bottom-4 left-4 bg-white shadow-md p-3 rounded-lg flex items-center space-x-2"
-            >
-              <img
-                src="why_images/user.svg"
-                alt="User"
-                class="w-8 h-8 rounded-full"
-              />
-              <p class="text-gray-800 text-sm">
-                “It is very easy for me with this track feature to monitor user
-                information currently on my website.”
-              </p>
-            </div>
+            ></div>
           </div>
         </div>
         <!-- Sección 2 -->
@@ -399,7 +417,7 @@
             <h2 class="text-2xl font-bold mb-4">
               Conozca a sus clientes dondequiera que estén
             </h2>
-            <p class="text-gray-600">
+            <p class="text-gray-600 text-left">
               El acceso es la moneda de cambio de la web. Necesitas estar donde
               están tus clientes; si no, lo estará tu competencia.
             </p>
@@ -495,69 +513,67 @@
         <h2
           class="inline-block px-4 py-1 text-sm font-bold text-purple-700 bg-purple-200 rounded-full mb-10"
         >
-          OUR FEATURE
+          NUESTRA FUNCIÓN
         </h2>
-        <h3 class="text-3xl font-bold mb-6">
-          All the Features, without the price tag
-        </h3>
+        <h3 class="text-3xl font-bold mb-6">Todas las funciones, sin precio</h3>
         <p class="text-lg mb-10">
-          A truly customizable live chat and customer communication platform
-          packed with premium features.
+          Una plataforma de chat en vivo y comunicación con clientes totalmente
+          personalizable, repleta de funciones premium.
         </p>
         <a
           class="bg-purple-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-800"
           href="#"
         >
-          Explore More Features
+          Explora más funciones
         </a>
         <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            45+ Languages
+            Más de 45 idiomas
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
             JavaScript API
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Group Messaging
+            Mensajería grupal
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Video + Voice (Add-on)
+            Vídeo + Voz (Complemento)
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Agent &amp; Agent Messaging
+            Agente > mensajería de agente
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Screen Sharing
+            Pantalla Compartida
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Desktop Notifications
+            Notificaciones de escritorio
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            1880+Emoji
+            Más de 1880 Emojis
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Geo IP Tracking
+            Seguimiento geográfico de IP
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
             Agentes Ilimitados
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Track Senting
+            Seguimiento de envío
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Historia Ilimitada
+            Historial Ilimitado
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Track Engagement
+            Seguimiento del compromiso
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Detailed Reporting
+            Informes detallados
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Ban/Unban Visitors
+            Prohibir o desprohibir visitantes
           </span>
           <span class="bg-white shadow-md px-4 py-2 rounded-lg">
-            Agent Alerts
+            Alertas de agentes
           </span>
         </div>
       </div>
