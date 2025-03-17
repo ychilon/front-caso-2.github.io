@@ -35,14 +35,14 @@ El código está desarrollado utilizando las siguientes tecnologías y enfoques:
 El proyecto sigue una estructura organizada para una fácil mantenibilidad:
 
 📂 Matur.io
-├── 📄 index.html          # Página principal con toda la estructura
-├── 📄 styles.css          # Archivo de estilos personalizados
-├── 📂 logo_gen/           # Logos de la empresa
-├── 📂 why_images/         # Ilustraciones de las secciones
-├── 📂 logos_agents/       # Logos de empresas confiables
-├── 📂 howd_images/        # Imágenes de la sección How Does It Work?
-├── 📂 logos_foot/         # Logos de footer
-└── 📄 README.md           # Documentación del proyecto
+├── 📄 index.html
+├── 📄 styles.css
+├── 📂 logo_gen/
+├── 📂 why_images/
+├── 📂 logos_agents/
+├── 📂 howd_images/
+├── 📂 logos_foot/
+└── 📄 README.md
 
 
 ## Características
